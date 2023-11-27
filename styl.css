@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 5%;
+    height: 4%;
+    border-radius:100%;
+    margin-left: 1%;
+    
+}
+header h1{
+    color: azure;
+    margin-left: 1%;
+    margin-top:1% ;
+}
+header{
+    display: flex;
+}
+body{
+    background:linear-gradient(rgba(10, 0, 0, 0.336)  , rgba(0, 0, 0, 0.411)), url(background.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size:cover ;
+
+}
+main{
+    width:100%;
+
+}
+#ville {
+    position: relative;
+    top: 110px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
+}
+#chambre{
+    position: relative;
+    top: 120px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+}
+#prix{
+    position: relative;
+    top: 130px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
+}
+#propre{
+    position: relative;
+    top: 140px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
+
+}
+
+.sub{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    background-color: rgb(222, 247, 2);
+    width: 130px;
+    height: 40px;
+    border-radius:100px;
+    
+    
+    
+    
+}
+
+
+label{
+    margin-bottom: 50px;
+    color:blanchedalmond;
+    text-decoration:underline;
+    
+}
+label{
+   position: relative;
+    top: 200px;
+    left: 48%;
+}
+input[type=checkbox]{
+    position: relative;
+    top: 200px;
+    left: 48%;
+}
+
+@media screen and (max-width:360px) {
+  
+    .sub {
+        position: relative;
+        left: -80px;
+    }
+    img{
+        width: 10%;
+        height: 10%;
+        border-radius:100%;
+        margin-left: 3%;
+        margin-top: 3%;
+        
+    }
+    header h1{
+        color: azure;
+        margin-left: 1%;
+        margin-top:5% ;
+        font-size: 100%;
+    }
+    #chambre{
+        position: relative;
+        left: 20%;
+    }
+    #propre{
+        position: relative;
+        left: 20%;
+
+    }
+    #prix{
+        position: relative;
+        left: 20%;
+
+
+    }
+    #ville {
+        position: relative;
+        left: 20%;
+
+    }
+    label{
+        position: relative;
+        left: 20%;
+
+    }
+    input[type=checkbox]{
+        position: relative;
+        top: 200px;
+        left: 18%;
+        
+}
